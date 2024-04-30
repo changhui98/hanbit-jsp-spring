@@ -1,0 +1,10 @@
+*.class
+
+# target 디렉터리에 있는 모든 파일 무시.
+target/
+
+# src/ 하위의 .java 파일은 무시되지만 /src/main/ 하위의 .java 파일은 무시되지 않습니다.
+src/*.java
+
+#src/ 하위에 존재하는 모든 디렉터리의 .txt 파일을 무시합니다.
+src/**/*.txt
